@@ -4,9 +4,9 @@ CNN for weak supervised clustering
 # Data Structure
 In this case, cifar10 was used for training and testing, the structure of dataset is organized as following:
 
-              folder:train -> folder: 0,1,2,3,4,5,6,7,8,9
-folder:data->               
-              folder:test  -> folder: 0,1,2,3,4,5,6,7,8,9
+________________folder:train -> folder: 0,1,2,3,4,5,6,7,8,9
+__folder:data->               
+________________folder:test  -> folder: 0,1,2,3,4,5,6,7,8,9
               
 each folder i(i=0,1,2,...,9) contains all the images with label i, 5000 images for each folder in training, 1000 for testing.
 
