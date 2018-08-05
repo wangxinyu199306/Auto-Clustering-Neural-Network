@@ -19,7 +19,8 @@ A simple net with 3 conv layer & 3 fc layer is used in this demo, which I believ
 
 # Run it
 change the dataset path in cifar10.py(ignore the config.py), and run with:
-python3 cifar10_strtucture
+
+    python3 cifar10_strtucture
 following image will be shown after the program finished:
 ![image](https://github.com/wangxinyu199306/Auto-Clustering-Neural-Network/blob/master/predict.png)
 A better performance can be approached by substitute 6.0 with a larger margin value in featureNet.py/
